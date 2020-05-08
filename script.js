@@ -104,16 +104,7 @@ function randomLetter(arr) {
     return letter;
 }
 
-// Loop through array 
-function generate(arr) {
-    userLength();
-    var password = "";
-    for (var i = 0; i < userInput; i++) {
-        password += randomLetter(arr);
-    }
-    return password;
 
-}
 
 
 document.querySelector("#generate").onclick = function () {
